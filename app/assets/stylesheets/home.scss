@@ -6,12 +6,30 @@ li {
     list-style: none !important; 
 }
 
-.sportslist {
-    border-radius: 50%!important;
-    width: 1.5rem;
-    height: 1.5rem;
+.logo {
+    height: 3rem;
 }
+
+
+.github {
+    border-radius: 50%; 
+    height: 4rem;
+    padding-left: 10px; 
+}
+
+.sportslist {
+    margin-left: 10px; 
+}
+
 
 .extra {
   margin-top: 50px; 
+}
+
+.list-inline-item {
+    font-size: 16px !important;  
+}
+
+.terminal {
+    height: 1rem; 
 }

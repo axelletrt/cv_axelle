@@ -20,7 +20,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">
-        <span class="d-block d-lg-none">Axelle Tortai</span>
+        <span class="d-block d-lg-none">CV</span>
         <span class="d-none d-lg-block">
         <%= image_tag "profile.jpg", class:'img-fluid img-profile rounded-circle mx-auto mb-2'%>
         </span>
@@ -65,17 +65,20 @@
           <div class="subheading mb-5">Hacker House, 1 rue Alain Raillard, 93300 Aubervilliers - (+33)6 83 29 92 49 - <a href="mailto:name@email.com">a.tortai14@gmail.com</a>
           </div>
           <p class="lead mb-5">Après un Master Grande École à Rennes School of Business et un bootcamp de 3 mois en programmation, The Hacking Project, je suis à la recherche d'un poste de Product Owner Junior en CDI sur Paris.</p>
-          <div class="social-icons">
+          <!-- <div class="social-icons"> -->
             <a href="https://www.linkedin.com/in/axelle-tortai-752207a6/" data-toggle="tooltip" title="LinkedIn">
-              <i class="fab fa-linkedin-in"></i>
+                <%= image_tag "linkedin.png", class:"logo" %>
+
             </a>
             <a href="https://github.com/axelletrt?tab=repositories" data-toggle="tooltip" title="Github">
-              <i class="fab fa-github"></i>
+                <%= image_tag "github.png", class:"github" %>
+
             </a>
-            <a href="https://sports-list.herokuapp.com/" data-toggle="tooltip" title="Projet THP Final, Sports List">
-                <%= image_tag "logo.png", class:"sportslist" %>
+            <a href="https://sports-list.herokuapp.com/" data-toggle="tooltip" title="Projet Final The Hacking Project 
+            Sports List">
+                <%= image_tag "logo.png", class:"logo sportslist" %>
             </a>
-            </div> 
+           <!-- </div> -->
         </div>
       </section>
 
@@ -264,33 +267,28 @@
           <div class="subheading mb-3">Languages de programmation &amp; Outils</div>
           <ul class="list-inline dev-icons">
             <li class="list-inline-item">
-              <i class="fab fa-html5"></i>
+              <!-- <%= image_tag "terminal.png", class:"terminal" %> --> 
+              Ruby on Rails <%= image_tag "ruby.png", class:"terminal" %>
             </li>
             <li class="list-inline-item">
-              <i class="fab fa-css3-alt"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="fab fa-js-square"></i>
-            </li>
-          
-            <li class="list-inline-item">
-              <i class="fab fa-ruby"></i>
+              <!-- <%= image_tag "terminal.png", class:"terminal" %> --> 
+              Trello <%= image_tag "trello.png", class:"terminal" %>
             </li>
 
+            <li class="list-inline-item">
+              Figma <%= image_tag "figma.png", class:"terminal" %>
+            </li>
+         
           </ul>
-
           <div class="subheading mb-3">Capacités linguistiques</div>
           <ul class="fa-ul mb-0">
             <li>
-              <i class="fa-li fa fa-check"></i>
-                Français, langue maternelle</li>
+              &#10003 Français, langue maternelle</li>
             <li>
-              <i class="fa-li fa fa-check"></i>
-              Anglais, capable de s'exprimer spontanément et clairement en milieu professionnel</li>
+              &#10003 Anglais, capable de s'exprimer spontanément et clairement en milieu professionnel</li>
       
             <li>
-              <i class="fa-li fa fa-check"></i>
-              Espagnol, Niveau B2, Certification Elyte</li>
+              &#10003 Espagnol, Niveau B2, Certification Elyte</li>
       
           </ul>
       </section>
@@ -300,7 +298,7 @@
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
           <h2 class="mb-5">Intérêts</h2>
           <p>En plus de m'être intéressée récemment à la programmation, je suis quelqu'un de relativement sportive, ce qui m'aide au quotidien dans la gestion du stress. Découvrant la danse classique à l'âge de 8 ans, je continue de pratiquer des nouvelles expériences sportives avec passion. Entres autres : Course à pied, Surf, Escalade, Fitness, musculation.</p>
-          <p class="mb-0">Quoi de plus? J'aime les voyages et les découvertes culturelles qu'ils offrent. Bien qu'un minimum chauvine, j'aime le vin.</p>
+          <p class="mb-0">Quoi de plus? J'aime les voyages et les découvertes culturelles qu'ils offrent.</p>
       </section>
 
     </div>
